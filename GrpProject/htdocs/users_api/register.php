@@ -40,7 +40,7 @@ if ($stmt) {
         'error' => $connect->error // Return the actual preparation error message
     ]);
 }
-
+// test test
 // Close the statement and connection
 $stmt->close();
 $connect->close();
